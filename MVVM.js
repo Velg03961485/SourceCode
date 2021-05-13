@@ -68,8 +68,7 @@ class Complier{
 
     }
     isElementNode(node){ //是不是元素节点
-        // console.log(node.nodeTyep)
-        return node.nodeTyep === 1;
+        return node.nodeType == 1;
     }
 }
 
